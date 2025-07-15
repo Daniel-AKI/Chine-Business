@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - Aliexpress sélection</title>
+    <meta name="description" content="Connectez-vous pour accéder à votre compte.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Aliexpress sélection</a></h1>
+    </header>
+    <main>
+        <section class="login-section">
+            <h2>Connectez-vous à votre compte</h2>
+            <form id="login-form" action="/login" method="POST">
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" placeholder="votre.email@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Mot de passe :</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Se connecter</button>
+            </form>
+            <p class="form-switch">Nouvel utilisateur ? <a href="signup.html">Créez un compte</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Chine Business. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

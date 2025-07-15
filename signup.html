@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - Aliexpress sélection</title>
+    <meta name="description" content="Créez un compte pour profiter de toutes les fonctionnalités.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Aliexpress sélection</a></h1>
+    </header>
+    <main>
+        <section class="login-section">
+            <h2>Créez votre compte</h2>
+            <form id="signup-form" action="/signup" method="POST">
+                <div class="form-group">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" placeholder="votre.email@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Mot de passe :</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="password-confirm">Confirmez le mot de passe :</label>
+                    <input type="password" id="password-confirm" name="password-confirm" required>
+                </div>
+                <button type="submit">S'inscrire</button>
+            </form>
+            <p class="form-switch">Déjà un compte ? <a href="login.html">Connectez-vous</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Chine Business. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
